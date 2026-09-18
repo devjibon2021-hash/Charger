@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">চার্জিং সহকারী</string>
+    <string name="service_name">চার্জিং সহকারী ব্যাকগ্রাউন্ড সার্ভিস</string>
+    <string name="notification_channel_service">চার্জিং সহকারী স্ট্যাটাস</string>
+    <string name="notification_channel_alerts">চার্জিং অ্যালার্ট ও রিমাইন্ডার</string>
+    <string name="widget_name">চার্জিং সহকারী উইজেট</string>
+    <string name="widget_description">হোম স্ক্রিনে সরাসরি ব্যাটারি লেভেল, চার্জিং স্ট্যাটাস ও রিমাইন্ডার প্রদর্শন</string>
+</resources>

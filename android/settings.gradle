@@ -1,0 +1,2 @@
+rootProject.name = "ChargingAssistant"
+include ':app'
