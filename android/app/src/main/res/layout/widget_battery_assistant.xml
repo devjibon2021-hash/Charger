@@ -107,7 +107,7 @@
         android:layout_marginBottom="4dp"
         android:max="100"
         android:progress="80"
-        android:progressTint="#10B981" />
+        android:android:progressTint="#10B981" />
 
     <!-- Bottom Actions Row -->
     <LinearLayout

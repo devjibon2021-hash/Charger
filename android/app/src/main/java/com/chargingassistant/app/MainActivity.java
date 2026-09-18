@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements ChargingForegroun
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
         }
 
-        webView = findViewById(R.id.webview);
+        webView = findViewById(R.id.webView);
 
         // Configure optimal WebView settings
         WebSettings webSettings = webView.getSettings();

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "node scripts/generate-icons.js && node scripts/generate-bengali-audio.js && vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "build": "vite build",
     "start": "node dist/server.cjs",
     "generate-icons": "node scripts/generate-icons.js",
     "generate-audio": "node scripts/generate-bengali-audio.js",

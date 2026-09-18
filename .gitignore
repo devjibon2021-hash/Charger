@@ -5,6 +5,3 @@ android/app/build/
 android/.gradle/
 .gradle/
 *.apk
-package-lock.json
-android/app/src/main/assets/
-public/audio/
