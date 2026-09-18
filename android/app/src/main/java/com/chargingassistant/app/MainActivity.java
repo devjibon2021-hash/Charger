@@ -7,7 +7,6 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.view.WindowManager;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
@@ -40,7 +39,8 @@ public class MainActivity extends AppCompatActivity implements ChargingForegroun
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
         }
 
-        webView = findViewById(R.id.webview);
+        // Must match @+id/webView in res/layout/activity_main.xml.
+        webView = findViewById(R.id.webView);
 
         // Configure optimal WebView settings
         WebSettings webSettings = webView.getSettings();
