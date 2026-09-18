@@ -1,0 +1,6 @@
+{
+  "name": "চার্জিং সহকারী",
+  "description": "একটি নির্ভরযোগ্য, অফলাইন-বান্ধব ও প্রফেশনাল বাংলা চার্জিং সহকারী এবং ব্যাটারি মনিটর অ্যাপ্লিকেশন।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
